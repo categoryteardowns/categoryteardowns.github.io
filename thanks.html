@@ -65,5 +65,5 @@ document.getElementById('t-h').textContent=p?"Thanks, you're on the waitlist for
 var d=document.getElementById('t-d');d.textContent="We'll email you from categoryteardowns@mail.grokbot.com as soon as "+(p?"the plan":"your plan")+" opens, before we announce it anywhere else. Want something to read in the meantime? ";
 var a=document.createElement('a');a.href='./#free';a.textContent='Ask for a free 1-page preview';d.appendChild(a);d.appendChild(document.createTextNode(' of your category.'))})();
 </script>
-<footer><div class="w">Category Teardowns · <a href="mailto:categoryteardowns@mail.grokbot.com">categoryteardowns@mail.grokbot.com</a> · <!-- STRIPE_PORTAL_LINK: TEST-mode URL, swap to live portal URL at Stripe go-live --><a class="manage" href="https://billing.stripe.com/p/login/test_6oUdR9fLp1CY3wdan65ZC00" rel="noopener">Cancel or manage subscription</a></div></footer>
+<footer><div class="w">Category Teardowns · <a href="mailto:categoryteardowns@mail.grokbot.com">categoryteardowns@mail.grokbot.com</a><!-- FOOTER_MANAGE_LINK hidden during waitlist; restore at Stripe go-live --></div></footer>
 </body></html>
